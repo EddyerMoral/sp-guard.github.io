@@ -1,0 +1,46 @@
+/* General */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* Body */
+body {
+   margin: 0;
+   background-color: #222222;
+   font-family: Montserrat, Sans-Serif;
+}
+/* Scroll */
+html {
+   scroll-behavior: smooth;
+}
+/* Separator */
+hr {
+   height: 3px;
+   background-color: #bababa;
+   border: none;
+}
+/* Header */
+.Header {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff56;
+}
+/* Content */
+.Content {
+   max-width: 1400px;
+   margin: auto;
+}
+/* Header Content */
+.Header .Content {
+   display: flex;
+   align-items: center;
+}
+/* Header Logo */
+.Header .Content .Logo {
+   margin: 0;
+   padding: 18px 18px;
+   font-weight: bold;
+   color: white;
+   font-size: 1.7em;
+}
